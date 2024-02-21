@@ -1,4 +1,5 @@
 import Card from "./shared/Card"
+import Button from "./shared/Button"
 import { useState } from "react"
 
 function FeedbackForm() {
@@ -15,7 +16,7 @@ function FeedbackForm() {
             {/* ratings select */}
             <div className="input-group">
                 <input type="text" onChange={handleTextChange} placeholder="Write a review" value={text} />
-                <button type="submit">Send</button>
+                <Button type='submit' version='secondary'>Send</Button>
             </div>
         </form>
     </Card>
