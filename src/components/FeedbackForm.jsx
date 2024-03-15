@@ -3,7 +3,7 @@ import Button from "./shared/Button"
 import RatingSelect from "./RatingSelect"
 import { useState, useContext, useEffect } from "react"
 import FeedbackContext from "../context/FeedbackContext"
-import FeedbackItem from "./FeedbackItem"
+//import FeedbackItem from "./FeedbackItem"
 
 function FeedbackForm() {
     const [text, setText] = useState('')
